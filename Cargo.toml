@@ -1,0 +1,16 @@
+[package]
+name = "url-shortener-api2"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+actix-web = "4"
+tokio = { version = "1", features = ["full"] }
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+wasm-bindgen = "0.2"
+web-sys = { version = "0.3", features = ["Request", "RequestInit", "RequestMode", "Response"] }
+wasm-bindgen-futures = "0.4.50"
+uuid = { version = "1.16.0", features = ["v4"] }
+
+
